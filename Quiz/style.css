@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Arvo';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.questionDisplayer {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  background: bisque;
+}
+
+.answerContainer {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  background: blue;
+  display: flex;
+}
+
+.answer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border: solid;
+}
+
+.answer:hover {
+  background: rgb(84, 84, 84);
+}
+
+.answer:active {
+  background-color: black;
+}
+
+.submit {
+  position: relative;
+  width: 100px;
+  height: 20px;
+  background-color: white;
+  border: solid 7px;
+  text-align: center;
+}
+.submit:hover {
+  background-color: gray;
+}
+.submit:active {
+  background-color: black;
+}
